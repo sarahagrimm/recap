@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  number: number = 1;
+  string: string = '';
+  boolean : boolean = true;
+  null = null;
+  u: undefined = undefined;
 }
